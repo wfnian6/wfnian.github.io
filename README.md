@@ -1,3 +1,38 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+    margin: 10px 0 15px 0;
+    border-collapse: collapse;
+}
+td,th { 
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+}
+th {
+    padding: 5px 10px;  
+}
+</style>
+
 # Hriemy
 # ❤❤
 
@@ -56,7 +91,7 @@
 
 上接`[02]`，那一段日子过的实在难熬，想家的感觉也愈发强烈了，最后一次和关系好的朋友的聊天是十月十二日，我表妹。回想八月以前，我能自信的和我仰慕的老师们谈论着计算机相关的知识，能毫无违和感地和同学们讨论程序的优化，也能充满信心与希望地和好友们规划着未来和各大互联网公司。九月之后，一切就像梦幻泡影一样被呼噜声打破，之前只想闯，现在只想逃，我经常羡慕起在家乡工作的人们，例如你，迎着朝阳升而起，随着夕阳落而息。再大的不快也会随这一江水东去。 [[小城烟雨 \| 西游篇 第3刊]](https://dwz.cn/QNWHSipq) [[烟火上的兰州 \| 西游篇]](https://dwz.cn/QlRHZawj)。
 
-![故乡](https://dwz.cn/RJ1zpCFg)
+![故乡](https://github.com/wfnian/learn_git/blob/master/home.jpg)
 
 
 
@@ -187,7 +222,7 @@
 ……
 
 后面还是很慌张地完全没有按照草稿去问，不过知道了，原来是小曾啊哈哈，在我无数次拨了你的电话又挂掉的时候，我想还是以这样地方式来讲给你最好。
-![](https://dwz.cn/Mw9Xq3Ov)
+![](https://github.com/wfnian/learn_git/blob/master/about/img_3884%20(2).jpg)
 
 ## 14
 
