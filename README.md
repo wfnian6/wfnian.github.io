@@ -29,12 +29,8 @@ Hriemy |
 </font>
 </b>
 <br>
+<br>
 </center>
-
----
-
-
-
 
 
 
@@ -42,13 +38,24 @@ Hriemy |
 
 你轻轻地走进病房，那位隔壁床的大叔似乎住了很久，你们愉快的打着招呼，而你给我的印象是，你很爱笑。
 
-
-
-## 02
-
 ---
 
-### 我的缘起
+<center>
+<b>
+<font size="5" color="green">
+<u>02</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+我的缘起
+</font>
+</b>
+<br>
+<br>
+</center>
+
 
 
 八月初到北京着手考本校研究生，九月份因为搬校区由四人间变成六人间的原因，进来了一位打呼噜很厉害的同学而休息不好，在连续三天没睡好觉的情况下心态崩溃了。后续也一直是这个状况了。
@@ -57,22 +64,45 @@ Hriemy |
 
 
 
-## 03
-
 ---
 
-### 日记一则
+<center>
+<b>
+<font size="5" color="green">
+<u>03</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 后来不知是哪天，程序化地领药，扎针，主治医生查病情，你像个小跟班（恕我冒昧），主治医生在询问隔壁床的病情，而你在我这边，不小心打掉了血压计，可能是输液速度太快，随后你调慢了我输液速度，后来的那天本是十点半就能输完的，最后十一点多才输完，饿死我了饿死我了，后来我想想，这仇我一定要报~~~
 
-
-
-## 04
-
 ---
 
-### 变了的一切
+<center>
+<b>
+<font size="5" color="green">
+<u>04</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+变了的一切
+</font>
+</b>
+<br>
+<br>
+</center>
+
 
 
 
@@ -81,38 +111,71 @@ Hriemy |
 ![](http://i2.bvimg.com/681250/248316d2d9acafa7.jpg)
 
 
-
-
-
-## 05
-
 ---
 
-### 日记一则
+<center>
+<b>
+<font size="5" color="green">
+<u>05</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 我的病情慢慢变好，有一天早上我和你一起走进电梯，我们（请原谅我很自私地用这个词）并排站着，然后是沉默，我偷偷的看了你一眼（很是抱歉），你的身高及我耳畔，头发很好看诶~
 
 那日主治医生查病情，在询问我病情的时候，我看了你一眼，巧的是，你也看我（我猜啊你在想：这可怜的孩子哈哈哈），我慌忙挪开视线，我想，我可能完了。
 
-
-
-## 06
-
 ---
 
-### 后半年停了的日记
+<center>
+<b>
+<font size="5" color="green">
+<u>06</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+后半年停了的日记
+</font>
+</b>
+<br>
+<br>
+</center>
+
+
 
 
 
 日记停了，一八年十月最后一次日记，我写下：<font color="#3da742">"天降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行指乱其所为，所以动心忍性，曾益其所不能"</font>。当初我以为过一段时间就好了，今日我翻到这里，添加了一句话：<font color="#3da742">"狗屁"</font>。
 
 
-## 07
-
 ---
 
-### 日记一则
+<center>
+<b>
+<font size="5" color="green">
+<u>07</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -126,11 +189,23 @@ Hriemy |
 
 
 
-## 08
-
 ---
 
-### 杂谈
+<center>
+<b>
+<font size="5" color="green">
+<u>08</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+杂谈
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -138,11 +213,23 @@ Hriemy |
 
     
 
-## 09
-
 ---
 
-### 日记一则
+<center>
+<b>
+<font size="5" color="green">
+<u>09</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -152,11 +239,23 @@ Hriemy |
 
 
 
-## 10
-
 ---
 
-### 艰难时刻
+<center>
+<b>
+<font size="5" color="green">
+<u>10</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+艰难时刻
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -168,11 +267,23 @@ Hriemy |
 
 
 
-## 11
+---
 
---- 
-
-### 日记一则
+<center>
+<b>
+<font size="5" color="green">
+<u>11</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -182,11 +293,23 @@ Hriemy |
 
 
 
-## 12
-
 ---
 
-### 故乡与故乡
+<center>
+<b>
+<font size="5" color="green">
+<u>12</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+故乡与故乡
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -195,12 +318,24 @@ Hriemy |
 住院期间扎了十针，连同采血，最后一个疤褪掉的时候，我匆忙在灯下，阳光下，放大镜下找了好久扎过针的痕迹也未能找到时，不禁叹了口气，最终还是敌不过时间。
 
 
-
-## 13
-
 ---
 
-### 日记一则
+
+<center>
+<b>
+<font size="5" color="green">
+<u>13</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -210,11 +345,24 @@ Hriemy |
 
 后面还是很慌张地完全没有按照草稿去问，不过知道了，原来是小曾啊哈哈，在我无数次拨了你的电话又挂掉的时候，我想还是以这样地方式来讲给你最好。
 ![](http://i2.bvimg.com/681250/553a714378d7eeaa.jpg)
-## 14
 
 ---
 
-### 后来的后来
+<center>
+<b>
+<font size="5" color="green">
+<u>14</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+后来的后来
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -226,11 +374,23 @@ Hriemy |
 
 
 
-## 15
-
 ---
 
-### 致歉
+<center>
+<b>
+<font size="5" color="green">
+<u>15</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+致歉
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -239,25 +399,46 @@ Hriemy |
 题目呢是纪念与祭奠，纪念你和遇见你的一八年的腊月，以及祭奠我艰难的一八年后半年。
 
 
-
-## 16
-
 ---
 
-### 我曾细数滴落的药滴
-
+<center>
+<b>
+<font size="5" color="green">
+<u>16</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+我曾细数滴落的药滴
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 最后一天的点滴呢，是280ml的复方甘草酸苷溶液和140ml的生脉注射液，从早上8：28到10：48分，时间挺久，一共是，9893滴水。
 
 
 
-## 17
-
 ---
 
-### 写在最后
-
+<center>
+<b>
+<font size="5" color="green">
+<u>17</u>
+</font>
+</b>
+<br>
+<b>
+<font size="5">
+写在最后
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -265,18 +446,38 @@ Hriemy |
     荷叶、炒山楂、丹参、连翘、茯苓、草决明子。
 
 
+
+
 ---
 
+<center>
+<b>
+<font size="6" color="green">
+<u>续篇</u>
+</font>
+</b>
+<br>
+
+<br>
+<br>
+</center>
+
+<center>
+<font size="4">"明月妆台纤纤指，年华偶然谁弹碎，应是佳人春梦里，忆不起，双蛾眉"，好妹妹这样唱着</font>
+</center>
+
+
 ---
 
-
-# *续篇*
-
-#### `"明月妆台纤纤指，年华偶然谁弹碎，应是佳人春梦里，忆不起，双蛾眉"，好妹妹这样唱着`
-
-## 18
-
----
+<center>
+<b>
+<font size="5" color="green">
+<u>18</u>
+</font>
+</b>
+<br>
+<br>
+</center>
 
 
 
@@ -300,21 +501,51 @@ Hriemy |
 
 "道阻且长，行则将至"，她如是回我，空了三四年的微信个性签名里有了内容，或许，我应该回到以前的状态，是那个曾经叫嚣过"王侯将相宁有种乎"的那个状态。
 
-## 19
 ---
+
+<center>
+<b>
+<font size="5" color="green">
+<u>19</u>
+</font>
+</b>
+<br>
+<br>
+</center>
+
 如果，我是说如果，樱花下落的速度每秒五厘米，想念可能是，每时每刻，入骨三分。
 
 
-## 20
-
 ---
+<center>
+<b>
+<font size="5" color="green">
+<u>20</u>
+</font>
+</b>
+<br>
+<br>
+</center>
+
 
 我已经失去太多了。
 
+---
+
 <br>
 <br>
 
-# ❤❤
+<center>
+<b>
+<font size="7" color="green">
+<u>❤❤</u>
+</font>
+</b>
+<br>
+<br>
+</center>
+
+
 
 ---
 
