@@ -6,14 +6,11 @@
 <b>
 <font size="6">纪念与祭奠 | 冬雪篇</font>
 </b>
+</center>
 
 
-
-
+<center>
 <a href="url"><i>(2019/3/22更新)</i></a>
-
-
-
 
 <font size = 4><b>"他们说：不如意事常八九"</b></font>
 
@@ -38,7 +35,13 @@
 </b>
 </center>
 
+---
 
+<center>
+<font size =5 ><b>日记一则</b></font>
+</center>
+
+---
 
 
 
