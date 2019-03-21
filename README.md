@@ -11,7 +11,8 @@
 
 ### "谨以此篇致小曾，致自己"
 
-
+1<img src='http://i2.bvimg.com/681250/553a714378d7eeaa.jpg'>
+2![](http://i2.bvimg.com/681250/553a714378d7eeaa.jpg)
 
     
 ## 01
