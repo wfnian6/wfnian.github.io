@@ -9,14 +9,16 @@
 
 
 
-<i><a href="url">(2019/3/22更新)</a></i>
+
+<a href="url"><i>(2019/3/22更新)</i></a>
 
 
-<b>
-<font size = 4>"他们说：不如意事常八九"</font>
 
-<font size = 4>"谨以此篇致小曾，致自己"</font>
-</b>
+
+<font size = 4><b>"他们说：不如意事常八九"</b></font>
+
+<font size = 4><b>"谨以此篇致小曾，致自己"</b></font>
+
 </center>
 
 <br><br>
@@ -29,11 +31,10 @@
 </center>
 
 ---
+
 <center>
 <b>
-
 <font size =5 >日记一则</font>
-
 </b>
 </center>
 
