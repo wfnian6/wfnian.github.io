@@ -1,7 +1,4 @@
 
-    
-# Hriemy
-
 <center>
 <b>
 <font size="6">纪念与祭奠 | 冬雪篇</font>
@@ -26,13 +23,15 @@ Hriemy |
 </font>
 </b>
 <br>
+<b>
+<font size="5">
+日记一则
+</font>
+</b>
+<br>
 </center>
 
-
-
-### 01
 ---
-### 日记一则
 
 
 
