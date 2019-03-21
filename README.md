@@ -8,40 +8,25 @@
 </b>
 </center>
 
-
 <center>
-<a href="url"><i>(2019/3/22更新)</i></a>
 
-<font size = 4><b>"他们说：不如意事常八九"</b></font>
+[(2019/3/22更新)]()
 
-<font size = 4><b>"谨以此篇致小曾，致自己"</b></font>
+### "他们说：不如意事常八九"
+
+### "谨以此篇致小曾，致自己"
 
 </center>
 
-<br><br>
 <center>
-<b>
-<u>
-<font size =5 color="#3da742" >01</font>
-</u>
-</b>
-</center>
 
+### 01
 ---
+### 日记一则
 
-<center>
-<b>
-<font size =5 >日记一则</font>
-</b>
 </center>
 
----
 
-<center>
-<font size =5 ><b>日记一则</b></font>
-</center>
-
----
 
 
 
