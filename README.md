@@ -535,7 +535,7 @@ Hriemy |
 </center>
 
 <u>
-[我喜欢你小曾，那天打电话是因为那天忍不住了，而不是那天想起来了，😔现在也是。](https://github.com/wfnian6/private/wiki)
+<a href="https://github.com/wfnian6/private/wiki">我喜欢你小曾，那天打电话是因为那天忍不住了，而不是那天想起来了，😔现在也是。</a>
 </u>
 
 ---
