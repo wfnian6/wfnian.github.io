@@ -1,18 +1,6 @@
 
 <center>
-<b>
-<font size="6">纪念与祭奠 | 冬雪篇</font>
-<br>
-</b>
-Hriemy |
 <a href="">(2019/4/26更新)</a>
-<br>
-<br>
-<font size="4">"他们说：不如意事常八九"</font>
-<br>
-<font size="4">"谨以此篇致小曾，致自己"</font>
-<br>
-
 
 </center>
 
