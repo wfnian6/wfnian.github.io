@@ -1,0 +1,18 @@
+# Setup
+title:        写给小曾
+tagline:      ❤
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       wfnian
+  url:        wfnian.top 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
