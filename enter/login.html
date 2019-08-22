@@ -1,128 +1,169 @@
-<html>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#EEB422">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="icon" href="ico.ico" type="image/x-icon" />
+</head>
 
 <body>
-    <script>
-        function login1() {
-            var pass = document.getElementById("password");
-            var p = pass.value;
-            var t = "//:sptth";
-            var g = "github.io";
-            if (pass.value == "") {
-                alert("哎呀你是不是忘了你的手机号呀？我们手机号码就差三位数噢");
-            }
-            if ((parseInt(p.charAt(2)) & parseInt(p.charAt(3))) == (parseInt(p.charAt(0)) & parseInt(p.charAt(1))) && (parseInt(p.charAt(0)) - parseInt(p.charAt(3)) == -1)) {
-                if (((parseInt(p.charAt(0)) + parseInt(p.charAt(3))) % parseInt("ab12v22daxdasfdxcdsfaffdsafdafl3213123l23kl12l1fbmloYW9hJTIweGlhb3plbmcldTU1OUMldTZCMjIldTY2MkYldTU1OUMldTZCMjIldTRGNjAldTc2ODQldTUzRUYldTcyMzEldTRFMEUldTZGMDIldTRFQUUldUZGMEMldTY3MDkldThEQTMldTRFNUYldTU1ODQldTgyNkYldTU0MjcldUZGMEMldThGRDgldTY3MDkldTRGNjAldTkwQTMldTdFQzYldTgxN0IldTc2ODQldTVGQzMldUZGMEMldTZCRDQldTU5ODIldThDMDMldTZEQjIldTkwMUYldTVFQTYldUZGMEMldTUzRUYldTgwRkQldTRGNjAldTVGNTMldTUyMUQldTVGODgldTk2OEYldTYxMEYldUZGMEMldTUzRUYldTkwQTMldTRFMkEldTdFQzYldTgyODIldTg4QUIldTYyMTEldTZDRTgldTYxMEYldTUyMzAldTRFODYldUZGMEMldTcwRDkldTU3MjgldTVGQzMldTkxQ0MldUZGMEMldTZDMzgldThGREMldTRFNUYldTY0RTYldTRFMEQldTYzODkldTRFODYldUZGMEMldTYyMTEldTc3RTUldTkwNTMldTRGNjAldTY2MkYldTRFMDAldTRFMkEldTdFQzYldTVGQzMldTc2ODQldTU5RDEldTVBMTgldUZGMEMldTYzODkldTRFODYldTc2ODQldTg4NDAldTUzOEIldThCQTEldTUzQzgldThCRjQldTY2MEUldTRGNjAldTY2MkYldTRFMDAldTRFMkEldTVDMEYldTlBNkMldTg2NEUldUZGMEMldTYyMTEldTVCOUUldTU3MjgldTVGODgldTU1OUMldTZCMjIldTRGNjAldTRFODYldUZGMEMldThGRDgldTY3MDkldTYyMTEldTdCMkMldTRFMDAldTZCMjEldTYyNTMldTc1MzUldThCREQldTdFRDkldTRGNjAldUZGMEMldTRGNjAldTkwQTMldTRFNDgldTIwMUQldTUxRjYldTIwMUQldUZGMEMldTU0QzgldTU0QzgldTU0QzgldTU0QzgldUZGMEMldTRGNjAldTc2ODQldTZCQ0YldTRFMDAldTRFMkEldTVDMEYldTVDMEYldTdFQzYldTgyODIldTg4QUIldTYyMTEldTZDRTgldTYxMEYldTUyMzAldTc2ODQldUZGMEMldTgxRjMldTVDMTEldTU3MjgldTYyMTEldTVGQzMldTkxQ0MldUZGMEMldTRGNjAldTY2MkYldTY3MDAldTU5N0QldTc2ODQldTU5RDEldTVBMTgldTRFODYldUZGMEMldTZDQTEldTY3MDkldTRFQkEldTY2MkYldTVCOEMldTdGOEUldTc2ODQldUZGMEMldTRGNDYldTRGNjAldTY2MkYldTVCOEMldTY1NzQldTc2ODQldUZGMEMldTY1RTAldTUzRUYldTZCRDQldTYyREYldUZGMEMldTg4NjgldTczQjAldTUxRkEldTU0MDQldTc5Q0QldTYwMjcldTY4M0MldUZGMEMldTY3MEIldTUzQ0IldTU3MDgldTkxQ0MldTUzQzgldTY2MkYldTVDMEYldTcyRDcldTU1NEEldUZGMEMldTUzQzgldTY2MkYldTVDMEYldTgyQjEldTU1NjYldUZGMEMldTc3MUYldTc2ODQldTY2MkYldTVDMTEldTU5NzMldTVGQzMldTZFRTEldTZFRTEldTc2ODQldTU1NjYldTMwMDIldTRGNjAldTY3MDkldTY1RjYldTUwMTkldTUwQ0YldTRFMkEldTU5MjcldTU5RDAldTU5RDAldUZGMEMldTZCRDQldTU5ODIldThCRjQldTVCODkldTYxNzAldThENzcldTUyMkIldTRFQkEldTc2ODQldTY1RjYldTUwMTkldUZGMEMldTY3MDkldTY1RjYldTUwMTkldTUzQzgldTUwQ0YldTRFMDAldTRFMkEldTVDMEYldTVCNjkldTVCNTAldUZGMEMldTgxMDYldTVGMzEldTU3MzAldTRFMEQldTU4MkEldTRFMDAldTUxRkIldUZGMEMldTY3MDkldTY1RjYldTUwMTkldTUwQkIldTUwQkIldTc2ODQldTIwMjYldTIwMjYlMjAldTYyMTEldTVDMEYldTVGQzMldTdGRkMldTdGRkMldTU3MzAldTUxNzMldTZDRTgldTc3NDAldTRGNjAldTc2ODQldTZCQ0YldTRFMDAldTRFMkEldTdFQzYldTgyODIldUZGMEMldThEOEEldTk2NzcldThEOEEldTZERjEldUZGMEMldTY1RTAldTZDRDUldTgxRUEldTYyRDQldUZGMEMldTYyNDAldTRFRTUldTU0MEUldTY3NjUldTVDMzEldThEOEEldTY3NjUldThEOEEldTU1OUMldTZCMjIldTRGNjAldTU1NjYldTMwMDIldTYyMTEldTRFRUMldTUyMUQldTZCMjEldTgwNEEldTU5MjkldTc2ODQldTY1RjYldTUwMTkldUZGMEMldTRGNjAldTk1RUUldTYyMTEldTY2MkYldTRFMEQldTY2MkYldTYwRjMldThDNjEldUZGMEMldTYyMTEldTYwRjMldTRFODYldTVGODgldTRFNDUldUZGMEMldTRFNUYldTZDQTEldTY3MDkldTU2REUldTdCNTQldTRGNjAldUZGMEMldTVERTcldTU5OTkldTU3MzAldThFQjIldTVGMDAldTRFODYldThGRDkldTRFMkEldThCREQldTk4OTgldUZGMEMldThGRDkldTRFMkEldTk1RUUldTk4OTgldTYyRDYldTRFODYldThGRDkldTRFNDgldTU5MUEldTU5MjkldTMwMDIldTYyMTEldTYwRjMldTU5MjcldTY5ODIldTY2MkYldThGRDkldTY4MzcldTVCNTAldThGRDkldTY4MzcldTVCNTAldTMwMDIldTVFNzYldTRFMEQldTY2MkYldTYyNDAldThDMTMldTYwRjMldThDNjEldTU1NjYldTMwMDI=".substring(2, 4))) == (parseInt(p.charAt(3) % parseInt(p.charAt(2))))) {
-                    t = t.split("").reverse().join("");
-                    var u = "wfnian" + parseInt("6") + ".";
-                    username.value = "xiaozeng";
-                    var u = u + g + "/" + (username.value) + "." + g;
-                    console.log(t + u);
-                    var go = t + u;
-                    window.location.href = go;
-                }
-            }
-            else {
-                alert("哎呀你是不是忘了你的手机号呀？给我打个电话吧。")
-            }
-        }
-    </script>
-    <div id="login_frame">
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-        <form method="post">
+    <section class="page-header">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">
+            {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    </section>
 
-            <p style="display: none"><label class="label_input">《你的名字》</label><input type="text" id="username"
-                    class="text_field" /></p>
-            <p><label class="label_input"> 密码可能是什么呢 </label><input type="password" id="password" class="text_field" />
-            </p>
+    <main id="content" class="main-content" role="main">
+        <div>
+            <body>
+                <script>
+                    function login1() {
+                        var pass = document.getElementById("password");
+                        var p = pass.value;
+                        var t = "//:sptth";
+                        var g = "github.io";
+                        if (pass.value == "") {
+                            alert("哎呀你是不是忘了你的手机号呀？我们手机号码就差三位数噢");
+                        }
+                        if ((parseInt(p.charAt(2)) & parseInt(p.charAt(3))) == (parseInt(p.charAt(0)) & parseInt(p.charAt(1))) && (parseInt(p.charAt(0)) - parseInt(p.charAt(3)) == -1)) {
+                            if (((parseInt(p.charAt(0)) + parseInt(p.charAt(3))) % parseInt("ab12v22daxdasfdxcdsfaffdsafdafl3213123l23kl12l1fbmloYW9hJTIweGlhb3plbmcldTU1OUMldTZCMjIldTY2MkYldTU1OUMldTZCMjIldTRGNjAldTc2ODQldTUzRUYldTcyMzEldTRFMEUldTZGMDIldTRFQUUldUZGMEMldTY3MDkldThEQTMldTRFNUYldTU1ODQldTgyNkYldTU0MjcldUZGMEMldThGRDgldTY3MDkldTRGNjAldTkwQTMldTdFQzYldTgxN0IldTc2ODQldTVGQzMldUZGMEMldTZCRDQldTU5ODIldThDMDMldTZEQjIldTkwMUYldTVFQTYldUZGMEMldTUzRUYldTgwRkQldTRGNjAldTVGNTMldTUyMUQldTVGODgldTk2OEYldTYxMEYldUZGMEMldTUzRUYldTkwQTMldTRFMkEldTdFQzYldTgyODIldTg4QUIldTYyMTEldTZDRTgldTYxMEYldTUyMzAldTRFODYldUZGMEMldTcwRDkldTU3MjgldTVGQzMldTkxQ0MldUZGMEMldTZDMzgldThGREMldTRFNUYldTY0RTYldTRFMEQldTYzODkldTRFODYldUZGMEMldTYyMTEldTc3RTUldTkwNTMldTRGNjAldTY2MkYldTRFMDAldTRFMkEldTdFQzYldTVGQzMldTc2ODQldTU5RDEldTVBMTgldUZGMEMldTYzODkldTRFODYldTc2ODQldTg4NDAldTUzOEIldThCQTEldTUzQzgldThCRjQldTY2MEUldTRGNjAldTY2MkYldTRFMDAldTRFMkEldTVDMEYldTlBNkMldTg2NEUldUZGMEMldTYyMTEldTVCOUUldTU3MjgldTVGODgldTU1OUMldTZCMjIldTRGNjAldTRFODYldUZGMEMldThGRDgldTY3MDkldTYyMTEldTdCMkMldTRFMDAldTZCMjEldTYyNTMldTc1MzUldThCREQldTdFRDkldTRGNjAldUZGMEMldTRGNjAldTkwQTMldTRFNDgldTIwMUQldTUxRjYldTIwMUQldUZGMEMldTU0QzgldTU0QzgldTU0QzgldTU0QzgldUZGMEMldTRGNjAldTc2ODQldTZCQ0YldTRFMDAldTRFMkEldTVDMEYldTVDMEYldTdFQzYldTgyODIldTg4QUIldTYyMTEldTZDRTgldTYxMEYldTUyMzAldTc2ODQldUZGMEMldTgxRjMldTVDMTEldTU3MjgldTYyMTEldTVGQzMldTkxQ0MldUZGMEMldTRGNjAldTY2MkYldTY3MDAldTU5N0QldTc2ODQldTU5RDEldTVBMTgldTRFODYldUZGMEMldTZDQTEldTY3MDkldTRFQkEldTY2MkYldTVCOEMldTdGOEUldTc2ODQldUZGMEMldTRGNDYldTRGNjAldTY2MkYldTVCOEMldTY1NzQldTc2ODQldUZGMEMldTY1RTAldTUzRUYldTZCRDQldTYyREYldUZGMEMldTg4NjgldTczQjAldTUxRkEldTU0MDQldTc5Q0QldTYwMjcldTY4M0MldUZGMEMldTY3MEIldTUzQ0IldTU3MDgldTkxQ0MldTUzQzgldTY2MkYldTVDMEYldTcyRDcldTU1NEEldUZGMEMldTUzQzgldTY2MkYldTVDMEYldTgyQjEldTU1NjYldUZGMEMldTc3MUYldTc2ODQldTY2MkYldTVDMTEldTU5NzMldTVGQzMldTZFRTEldTZFRTEldTc2ODQldTU1NjYldTMwMDIldTRGNjAldTY3MDkldTY1RjYldTUwMTkldTUwQ0YldTRFMkEldTU5MjcldTU5RDAldTU5RDAldUZGMEMldTZCRDQldTU5ODIldThCRjQldTVCODkldTYxNzAldThENzcldTUyMkIldTRFQkEldTc2ODQldTY1RjYldTUwMTkldUZGMEMldTY3MDkldTY1RjYldTUwMTkldTUzQzgldTUwQ0YldTRFMDAldTRFMkEldTVDMEYldTVCNjkldTVCNTAldUZGMEMldTgxMDYldTVGMzEldTU3MzAldTRFMEQldTU4MkEldTRFMDAldTUxRkIldUZGMEMldTY3MDkldTY1RjYldTUwMTkldTUwQkIldTUwQkIldTc2ODQldTIwMjYldTIwMjYlMjAldTYyMTEldTVDMEYldTVGQzMldTdGRkMldTdGRkMldTU3MzAldTUxNzMldTZDRTgldTc3NDAldTRGNjAldTc2ODQldTZCQ0YldTRFMDAldTRFMkEldTdFQzYldTgyODIldUZGMEMldThEOEEldTk2NzcldThEOEEldTZERjEldUZGMEMldTY1RTAldTZDRDUldTgxRUEldTYyRDQldUZGMEMldTYyNDAldTRFRTUldTU0MEUldTY3NjUldTVDMzEldThEOEEldTY3NjUldThEOEEldTU1OUMldTZCMjIldTRGNjAldTU1NjYldTMwMDIldTYyMTEldTRFRUMldTUyMUQldTZCMjEldTgwNEEldTU5MjkldTc2ODQldTY1RjYldTUwMTkldUZGMEMldTRGNjAldTk1RUUldTYyMTEldTY2MkYldTRFMEQldTY2MkYldTYwRjMldThDNjEldUZGMEMldTYyMTEldTYwRjMldTRFODYldTVGODgldTRFNDUldUZGMEMldTRFNUYldTZDQTEldTY3MDkldTU2REUldTdCNTQldTRGNjAldUZGMEMldTVERTcldTU5OTkldTU3MzAldThFQjIldTVGMDAldTRFODYldThGRDkldTRFMkEldThCREQldTk4OTgldUZGMEMldThGRDkldTRFMkEldTk1RUUldTk4OTgldTYyRDYldTRFODYldThGRDkldTRFNDgldTU5MUEldTU5MjkldTMwMDIldTYyMTEldTYwRjMldTU5MjcldTY5ODIldTY2MkYldThGRDkldTY4MzcldTVCNTAldThGRDkldTY4MzcldTVCNTAldTMwMDIldTVFNzYldTRFMEQldTY2MkYldTYyNDAldThDMTMldTYwRjMldThDNjEldTU1NjYldTMwMDI=".substring(2, 4))) == (parseInt(p.charAt(3) % parseInt(p.charAt(2))))) {
+                                t = t.split("").reverse().join("");
+                                var u = "wfnian" + parseInt("6") + ".";
+                                username.value = "xiaozeng";
+                                var u = u + g + "/" + (username.value) + "." + g;
+                                console.log(t + u);
+                                var go = t + u;
+                                window.location.href = go;
+                            }
+                        }
+                        else {
+                            alert("哎呀你是不是忘了你的手机号呀？给我打个电话吧。")
+                        }
+                    }
+                </script>
+                <div id="login_frame">
+            
+                    <form method="post">
+            
+                        <p style="display: none"><label class="label_input">《你的名字》</label><input type="text" id="username"
+                                class="text_field" /></p>
+                        <p><label class="label_input"> 密码可能是什么呢 </label><input type="password" id="password" class="text_field" />
+                        </p>
+            
+                        <div id="login_control">
+                            <input type="button" id="btn_login" value="进入写给小曾" onclick="login1();" />
+                            <a id="forget_pwd" href="https://www.baidu.com/">不是小曾？</a>
+                        </div>
+                    </form>
+                </div>
+                <style>
+                    #login_frame {
+                        width: 340px;
+                        height: 160px;
+                        padding: 10px;
+                        /* position: absolute; */
+                        left: 50%;
+                        top: 50%;
+                        /* margin-left: -200px;
+                        margin-top: -200px; */
+                        background-image: linear-gradient(253deg, #FFE935, #ec227e);
+                        border-radius: 0px;
+                        text-align: center;
+                        box-shadow: 4px 4px 3px;
+            
+                    }
+            
+                    form p>* {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+            
+                    #image_logo {
+                        margin-top: 22px;
+                    }
+            
+                    .label_input {
+                        font-size: 14px;
+                        font-family: 宋体;
+                        line-height: 28px;
+                        text-align: center;
+                        text-shadow: 8px 5px 9px;
+                        padding-left: 8px;
+                        padding-right: 10px;
+                        color: rgb(11, 11, 11);
+                        border-radius: 5px;
+                    }
+            
+                    .text_field {
+                        width: 262px;
+                        height: 28px;
+                        color: rgb(187, 187, 187);
+                        border-radius: 5px;
+                        border: 0;
+                    }
+            
+                    #btn_login {
+                        font-size: 14px;
+                        font-family: 宋体;
+            
+                        width: 120px;
+                        height: 28px;
+                        line-height: 28px;
+                        text-align: center;
+                        box-shadow: 4px 4px 3px 0px #484848;
+                        color: white;
+                        background-color: rgb(226, 164, 188);
+                        border-radius: 6px;
+                        border: 0;
+            
+                        float: left;
+                    }
+            
+                    #forget_pwd {
+                        font-size: 14px;
+                        color: rgb(4, 38, 231);
+                        text-decoration: underline;
+                        position: relative;
+                        float: right;
+                        top: 5px;
+            
+                    }
+            
+                    #forget_pwd:hover {
+                        color: blue;
+                        text-decoration: underline;
+                    }
+            
+                    #login_control {
+                        padding: 0 28px;
+                    }
+                </style>
+            </body>
+        </div>
+        <footer class="site-footer">
 
-            <div id="login_control">
-                <input type="button" id="btn_login" value="进入写给小曾" onclick="login1();" />
-                <a id="forget_pwd" href="https://www.baidu.com/">不是小曾？</a>
-            </div>
-        </form>
-    </div>
-    <style>
-        #login_frame {
-            width: 340px;
-            height: 160px;
-            padding: 10px;
-            /* position: absolute; */
-            left: 50%;
-            top: 50%;
-            /* margin-left: -200px;
-            margin-top: -200px; */
-            background-image: linear-gradient(253deg, #FFE935, #ec227e);
-            border-radius: 0px;
-            text-align: center;
-            box-shadow: 4px 4px 3px;
-
-        }
-
-        form p>* {
-            display: inline-block;
-            vertical-align: middle;
-        }
-
-        #image_logo {
-            margin-top: 22px;
-        }
-
-        .label_input {
-            font-size: 14px;
-            font-family: 宋体;
-            line-height: 28px;
-            text-align: center;
-            text-shadow: 8px 5px 9px;
-            padding-left: 8px;
-            padding-right: 10px;
-            color: rgb(11, 11, 11);
-            border-radius: 5px;
-        }
-
-        .text_field {
-            width: 262px;
-            height: 28px;
-            color: rgb(187, 187, 187);
-            border-radius: 5px;
-            border: 0;
-        }
-
-        #btn_login {
-            font-size: 14px;
-            font-family: 宋体;
-
-            width: 120px;
-            height: 28px;
-            line-height: 28px;
-            text-align: center;
-            box-shadow: 4px 4px 3px 0px #484848;
-            color: white;
-            background-color: rgb(226, 164, 188);
-            border-radius: 6px;
-            border: 0;
-
-            float: left;
-        }
-
-        #forget_pwd {
-            font-size: 14px;
-            color: rgb(4, 38, 231);
-            text-decoration: underline;
-            position: relative;
-            float: right;
-            top: 5px;
-
-        }
-
-        #forget_pwd:hover {
-            color: blue;
-            text-decoration: underline;
-        }
-
-        #login_control {
-            padding: 0 28px;
-        }
-    </style>
+            {% if site.github.is_project_page %}
+            <span class="site-footer-owner"><a href="https://wfnian6.github.io/nihaowa.github.io/">本页面</a>
+                is maintained by <a href="https://zhihu.com/people/wfnian">wfnian</a>.</span>
+            {% endif %}
+            <span class="site-footer-credits">This page was generated by <a
+                    href="https://pages.github.com">me</a>.</span>
+        </footer>
+    </main>
 </body>
 
 </html>
+
+
+
+
+
